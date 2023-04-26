@@ -9,11 +9,28 @@ nav{
     text-align: center;
     background-color: rgb(6, 236, 225);
     color: red;
-
+    font-size: larger;
+    word-spacing: 30cqb;
 }
+
 h1{
     color: antiquewhite;
 }
+
 body{
     background-color: rgb(72, 137, 235);
+}
+
+a{
+        width:300px;
+        height:100px;
+        border:3px solid rgb(218, 129, 14);
+        background-color:#3134f760;
+        padding:2px;
+    }
+
+main{
+    background-image: url(.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
