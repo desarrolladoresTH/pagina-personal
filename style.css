@@ -1,0 +1,19 @@
+header{
+    text-align: center;
+    font-size: x-large;
+    color: antiquewhite;
+    background-color: rgb(60, 0, 170);
+}
+
+nav{
+    text-align: center;
+    background-color: rgb(6, 236, 225);
+    color: red;
+
+}
+h1{
+    color: antiquewhite;
+}
+body{
+    background-color: rgb(72, 137, 235);
+}
