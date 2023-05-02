@@ -1,0 +1,14 @@
+header{
+    text-align: center;
+    font-size: x-large;
+    color: antiquewhite;
+    background-color: rgb(60, 0, 170);
+}
+
+.link{
+    font-size: x-large;
+}
+
+body{
+    background-color: rgb(228, 140, 26)
+}

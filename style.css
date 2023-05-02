@@ -24,13 +24,5 @@ body{
 a{
         width:300px;
         height:100px;
-        border:3px solid rgb(218, 129, 14);
-        background-color:#3134f760;
         padding:2px;
     }
-
-main{
-    background-image: url(.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
