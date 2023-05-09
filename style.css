@@ -26,3 +26,27 @@ a{
         height:100px;
         padding:2px;
     }
+li{
+    list-style: none;
+}
+
+.skills{
+display: inline-flex;
+}
+
+.skills li{
+    width: 250px;
+    text-align: center;
+    vertical-align: top;
+    margin: 1.5%;
+    background-color: rgb(108, 108, 221);
+    border-color: orange;
+    border-width: 2px;
+    border-style: solid;
+    border-top-width: 5px;
+}
+
+.skills h2{
+    font-size: 30px;
+    font-weight: bold;
+}
