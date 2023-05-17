@@ -8,9 +8,10 @@ header{
 nav{
     text-align: center;
     background-color: rgb(6, 236, 225);
-    color: red;
     font-size: larger;
-    word-spacing: 30cqb;
+    justify-content: space-between;
+    display: flex;
+    height: 25px;
 }
 
 h1{
@@ -18,7 +19,12 @@ h1{
 }
 
 body{
-    background-color: rgb(72, 137, 235);
+    background-color: rgb(114, 159, 228);
+}
+@media (min-width: 600px) and (max-width: 768px) {
+    body {
+    background-color: #dda428;
+    }
 }
 
 a{
@@ -49,4 +55,61 @@ display: inline-flex;
 .skills h2{
     font-size: 30px;
     font-weight: bold;
+}
+.skills :hover{
+    background: #9db4e0;
+    transform: scale(1.2);
+}
+
+@media only screen {
+    .skills{
+        background-color: #de3163;
+    }
+    
+}
+
+
+
+
+.Contacto{
+    width: 940px;
+    height:  auto;
+    margin: 40px;
+    background-color: rgb(177, 184, 240);
+} 
+
+form{
+    background-color:#9db4e0 ;
+}
+
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 30px, 0;
+}
+
+.Enviar{
+    width: 30%;
+    padding: 15px, 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: antiquewhite;
+    background-color: #ff5405;
+}
+
+.Enviar:hover{
+    background: #e04802;
+    cursor: pointer;
+    transform: scale(1.2);
 }

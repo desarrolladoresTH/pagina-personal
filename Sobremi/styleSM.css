@@ -12,3 +12,9 @@ header{
 body{
     background-color: rgb(228, 140, 26)
 }
+
+.figcap{
+    font-size: x-large;
+    color: aliceblue;
+    text-align: center;
+}
